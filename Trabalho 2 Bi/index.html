@@ -1,0 +1,246 @@
+<html>
+    <head>
+        <title> Trabalho 2 Bimestre</title>
+
+        <link href="estilos/style.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+        
+        <div class="divMenu">
+            <img class="logoUnipar"  src="data:image/png;base64,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">
+            <div class="tituloMenu">Universidade Paranaense <br>RA:00250237 Nome:Marcos Serrute <br> RA:03014607 Nome:Gildo Dos Reis</div><br>     <br>
+        </div>
+
+        <div class="exercicio01"> 
+            <p>Imobiliária Imóbilis <br>
+            Dimensões do terreno <br></p>
+            <input id="largura" type="Number" placeholder="Largura">
+            X
+            <input id="comprimento" type="Number" placeholder="Comprimento"> <br>
+            <button id="area">Calcular a area do Terreno</button><br>
+            <h3 id="h3Resultado"></h3>
+    
+        </div>
+        
+        //Segundo exercio 
+
+        <div class="exercicio02"> 
+            <p>Haras Boitata <br>
+            Quantidade de Cavalo<br></p>
+
+            <input id="quantidaCvalos" type="number" placeholder="Quantidade de Cavalos">
+
+            <button id="btCacular">Calcular Ferraduras</button>
+
+            <h3 id="h3Exebir">
+            </h3>
+        
+        </div>
+
+        //Tercceiro exercio 
+        
+        <div class="exercicio03">
+            <p>Padaria Hotpão <br>
+            Valor em dinheiro vendido de Pães e Broas vendidas  <br></p>
+
+            <input id="quantidadeBroas" type="number" placeholder="Quantidade de Broas">
+
+            <input id="QuantidadePães" type="number" placeholder="Quantidade de Pães">
+
+            <button id="btSomar">Calcular</button>
+
+            <h3 id="h1Exibir"></h3>
+            <h3 id="h2Exibir"></h3>
+
+        </div>
+
+        //Quarto Exercicio
+
+        <div class="exercicio04"> 
+            <p>Calculador de Dias de Vida <br>
+            Fa&ccedil;a seu Calculo de Dias de Vida <br></p>
+
+            <input id="inputNome" type="text" placeholder="Escreva seu Nome">
+
+            <input id="inputIdade" type="number" placeholder="Digite sua Idade">
+
+            <button id="btCalculaDias">Calcular dias</button>
+
+            <h3 id="h4Exibir"></h3>
+
+        </div>
+
+        <div class="exercicio05">
+            <p>Calculador do pagamento da Gasolina <br>
+                Fa&ccedil;a seu Calculo quantidade de Gasolina comprada <br></p>
+
+            <input id="inputValorPago" type="number" placeholder="Valor Pago">
+
+            <input id="inputVlrGasolina" type="number" placeholder="Insira o valor da Gasolina">
+
+            <button id="btPreço">Calcular quantidade de gasolina Comprada</button>
+
+            <h3 id="h5Exibir"></h3>
+        </div>
+
+        //Sexto Exercicio
+
+        <div class="exercicio06"> 
+            <p> Restaurante Bem-Bão <br>
+            Calcule o valor do seu prato<br></p>
+
+            <input id="inputKilos" type="number" placeholder="Peso do Prato">
+
+            <button id="btApagar">Calcular valor da reifei&ccedil;&atilde;o</button>
+
+            <h3 id="h6Exibir">
+            </h3>
+        
+        </div>
+
+        //Setimo Exercicio
+
+        <div class="exercicio07"> 
+            <p> Dias Juliano <br>
+            Calcule o valor do dia de hoje<br></p>
+
+            <input id="inputDias" type="number" placeholder="Digite o Dia de hoje">
+
+            <input id="inputMes" type="number" placeholder="Digite o Mes de hoje">
+
+            <button id="btCalJJJ">Calcular dia Juliano</button>
+
+            <h3 id="h7Exibir">
+            </h3>
+        
+        </div>
+
+        //Oitavo Exercicio
+
+        <div class="exercicio08"> 
+            <p> Camisetaria <br>
+            Calcule o valor do Carrinho<br></p>
+
+            <input id="inputCamisaP" type="number" placeholder="Quantidade de camisas P"><br>
+
+            <input id="inputCamisaM" type="number" placeholder="Quantidade de camisas M"><br>
+
+            <input id="inputCamisaG" type="number" placeholder="Quantidade de camisas M"><br>
+
+            <button id="btCaTotalCamisa"> Calcular total do Carrinho</button>
+
+            <h3 id="h8Exibir">
+            </h3>
+        
+        </div>
+
+        //Nono Exercicio
+
+        <div class="exercicio09"> 
+            <p> Distância Euclidiana <br>
+            Calcule a distância euclidiana<br></p>
+
+            <input id="inputX1" type="number" placeholder="Digite X Primeiro ponto"><br>
+
+            <input id="inputY1" type="number" placeholder="Digite Y Primeiro ponto"><br>
+
+            <input id="inputX2" type="number" placeholder="Digite X Segundo ponto"><br>
+
+            <input id="inputY2" type="number" placeholder="Digite Y Segundo ponto"><br>
+         
+            <button id="btCalcularEuclidiana"> Calcular a distância Euclidiana</button>
+
+            <h3 id="h9Exibir">
+            </h3>
+        
+        </div>
+
+        //Decimo Exercicio
+
+        <div class="exercicio10"> 
+            <p> Contagem de tempo sem acidente de trabalho  <br>
+            <br>Estamos sem acidentes á: </p>
+
+            <input id="inputTempo" type="number" placeholder="Digite a quantidade de dias"><br>
+
+            <button id="btTempo"> Converter </button><br>
+
+            <h3 id="h10Exibir"> </h3>
+        
+        </div>
+
+        //Decimo Primeiro Exercicio
+
+        <div class="exercicio11"> 
+            <p> Salario aumento  <br>
+            <br>Digite o Valor do salario antigo:</p>
+
+            <input id="inputSalario" type="number" placeholder="Digite o Salario"><br>
+
+            <button id="btCalcularSalario"> Calcular aumento </button>
+
+            <h3 id="h11Exibir">
+            </h3>
+        
+        </div>
+
+        //Decimo Segundo Exercicio
+
+        <div class="exercicio12"> 
+            <p> Decomposição de Numero  <br>
+            <br>Insira Aqui seu numero para decompor:</p>
+
+            <input id="inputNumero" type="number" placeholder="Digite o numero"><br>
+
+            <button id="btNumero"> Decompor </button>
+
+            <h3 id="h12Exibir">
+            </h3>
+        
+        </div>
+
+        //Decimo Terciero Exercicio
+
+        <div class="exercicio13"> 
+            <p>Calculadora de Pizza<br>
+            <br>Digite o Raio da Pizza:</p>
+
+            <input id="inputArea" type="number" placeholder="Digite o Raio em cm"><br>
+
+            <button id="btCalcularArea"> Calcular </button>
+
+            <h3 id="h13Exibir">
+            </h3>
+        
+        </div>
+
+        //Decimo Quarto Exercicio
+
+        <div class="exercicio14"> 
+            <p>Divisor de Conta de Boteco<br>
+            <br> Coloque o Valor da sua Conta Abaixo:</p>
+
+            <input id="inputVlr" type="number" placeholder="Digite o Valor"><br>
+
+            <button id="btVlr"> Calcular </button>
+
+            <h3 id="h14Exibir">
+            </h3>
+        
+        </div>
+
+    </body>
+    <script src="script/script.js"></script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
